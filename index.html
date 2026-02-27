@@ -108,7 +108,6 @@
         }
 
         .container {
-            left: 30px;
             text-align: center;
             z-index: 2;
             width: 100%;
@@ -134,7 +133,7 @@
         }
 
         .subtitulo {
-            color: rgba(2, 1, 1, 0.95);
+            color: rgba(255, 255, 255, 0.95);
             font-size: clamp(1rem, 4vw, 1.3rem);
             margin-bottom: 2.5rem;
             text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
@@ -143,7 +142,7 @@
         }
 
         .boton-romantico {
-            
+            padding: 18px 35px;
             width: 100%;
             max-width: 320px;
             font-size: clamp(1.3rem, 5vw, 1.8rem);
@@ -208,7 +207,7 @@
         }
 
         .mensaje-amor {
-            color: rgb(0, 0, 0);
+            color: white;
             font-size: clamp(0.9rem, 3.5vw, 1.1rem);
             margin-top: 20px;
             text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
@@ -237,7 +236,7 @@
         .modal {
             position: fixed;
             top: 50%;
-            
+            left: 50%;
             transform: translate(-50%, -50%) scale(0.9);
             width: 92%;
             max-width: 500px;
@@ -250,9 +249,7 @@
             transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
             z-index: 999;
             box-shadow: 0 25px 50px rgba(255, 107, 136, 0.4);
-            position: absolute;
-justify-content: center;
-
+            position: relative;
             overflow: visible;
             aspect-ratio: 1 / 1.1;
             border: 5px solid rgba(255, 255, 255, 0.8);
@@ -512,16 +509,16 @@ justify-content: center;
     <div id="corazones"></div>
 
     <div class="container">
-        <h1>🌸 Мi Amor 🌸</h1>
-        <div class="subtitulo">Самая самая лучшая))))</div>
+        <h1>🌸 MI AMOR 🌸</h1>
+        <div class="subtitulo">La persona más especial de mi vida</div>
         
         <!-- Botón con texto bonito para tu chica -->
         <button class="boton-romantico" id="playBtn">
-            💕 Для Тебя 💕
+            💕 Para Ti 💕
         </button>
         
         <div class="mensaje-amor">
-            ✨ С сердцем ✨
+            ✨ Con todo mi cariño ✨
         </div>
     </div>
 
@@ -546,7 +543,7 @@ justify-content: center;
         <div class="close-btn" id="closeBtn">✕</div>
         
         <div class="image-container">
-            <img src="Images/toothless.gif" alt="Para ti 💕" id="toothlessImg">
+            <img src="/images/toothless.gif" alt="Para ti 💕" id="toothlessImg">
         </div>
     </div>
 
@@ -743,8 +740,4 @@ justify-content: center;
         });
     </script>
 </body>
-
 </html>
-
-
-
